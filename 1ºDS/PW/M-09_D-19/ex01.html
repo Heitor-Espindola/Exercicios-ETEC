@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite um número, e falaremos todos os numeros inteiros até ele</h3>
+    Qual o número desejado: <input type="number" id="txtnumero" value="0">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    
+
+    <script>
+    function calcular(){
+        var n = document.querySelector('input#txtnumero')
+        var res = document.querySelector('div#res')
+        var numero = Number(n.value)
+        var i = 0
+        var j = 0
+        res.innerHTML = `<p>Números até ${numero}: </p>`
+        if(i <= numero){
+            for(i = 0;i <= numero;i++){
+            res.innerHTML += `${i}, `
+            }
+        }
+        else{
+            for(j = 0;j >= numero;j--){
+            res.innerHTML += `${j}, `}
+        }
+    }
+    </script>
+</body>
+</html>

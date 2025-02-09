@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mediaN
+        n1 = parseFloat(prompt(`Digite a nota do 1º bimestre`))
+        n2 = parseFloat(prompt(`Digite a nota do 2º bimestre`))
+        n3 = parseFloat(prompt(`Digite a nota do 3º bimestre`))
+        n4 = parseFloat(prompt(`Digite a nota do 4º bimestre`))
+        
+        mediaN = (n1+n2+n3+n4)/4
+        if(mediaN >= 7){
+        document.write(`A média do aluno é ${mediaN}.O(A) aluno(a) passou`)
+        }
+        else{
+            document.write(`A média do aluno é ${mediaN} .\nO(A) aluno(a) não passou`)
+        }
+    </script>
+</body>
+</html>

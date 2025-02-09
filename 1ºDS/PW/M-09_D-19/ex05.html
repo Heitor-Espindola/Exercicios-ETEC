@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Adicione 10 elementos dentro do vetor</h3>
+    <p id="txt">Digite o valor do 1º elemento</p>
+    <p id="txtImportante" style="color: red;"></p>
+    <input type="number" id="numeros" value="0">
+    <input id="botao" type="button" value="adicionar" onclick="add()">
+    <div id="res"></div>
+    <div id="iguais"></div>
+
+    <script>
+    var i = 0
+    let vetor = []
+    let iguais = []
+        function add(){
+            document.getElementById('botao').value = "adicionar"
+            var number = document.getElementById('numeros').value
+            var resp = document.getElementById('res')
+            var igual = document.getElementById('iguais')
+            var txt = document.getElementById('txt')
+            var maior = 0
+            var menor = vetor[0]
+            
+            
+            vetor.push(number)
+            i++
+            if(i <= 10){
+                txt.innerHTML = `<p>Digite o valor do ${i+1}º elemento</p>`
+                resp.innerHTML += `<p>${vetor}</p>`
+                resp.innerText = vetor.join(", ")
+                igual.innerText = iguais.join(", ")
+                txtImportante.innerHTML = ``
+            }
+            if(i == 10){
+                for(var x = 0; x < 11; x++){
+                    if(vetor[x] < menor){
+                        menor = vetor[x]
+                    }
+                    if(vetor[x] > maior){
+                        maior = vetor[x]
+                    }
+                    var nTempor = vetor[x]
+                    for(var y = (x+1); y < 10; y++){
+                        if(nTempor == vetor[y]){
+                            iguais.push(vetor[x])
+                        }
+                    }
+                }
+            
+                document.getElementById('botao').value = "limpar"
+                txt.innerHTML = `<p>Digite o valor do 1º elemento novamente (se quiser rodar o sistema novamente)</p>`
+                txtImportante.innerHTML = `<p>ATENÇÃO: Se fizer isso, os elementos do vetor atual serão apagados</p>`
+                
+                if(iguais.length == 0){
+                    resp. innerHTML += `<p>Maior: ${maior}<br> Menor: ${menor} <br> Iguais: Não existem números repitidos nesse vetor</p>`
+                }
+                else{
+                    resp.innerHTML += `<p>Maior: ${maior}<br> Menor: ${menor} <br> Iguais: ${iguais}</p>`
+                }
+            }
+
+            if(i > 10){
+                i = 0
+                resp.innerHTML = `<p></p>`
+                for(var x = 0;x <= 99;x++){
+                    vetor.pop(number)
+                    iguais.pop(vetor)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

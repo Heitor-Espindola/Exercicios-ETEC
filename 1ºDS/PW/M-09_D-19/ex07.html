@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite um número e faremos a raiz quadrada dele</h3>
+    <input type="number" id="numero" value="0">
+    <input type="button" value="calcular" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular(){
+            var numero = parseInt(document.querySelector('input#numero').value)
+            var resp = document.querySelector('div#res')
+            resp.style.color = 'black'
+            var raiz = parseFloat(Math.sqrt(numero))
+            var resultado = raiz.toFixed(1)
+            if(numero >= 0){
+                resp.innerHTML = `<p>A raiz quadrada de ${numero} é igual ou aproximadamente ${resultado}</p>`
+            }
+            else{
+                resp.style.color = 'red'
+                resp.innerHTML = `<p>A raiz de ${numero} não existe
+                    <br>tente com um número <strong>maior ou igual a 0</strong>!</p>`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite dois números positivos,e faremos a soma de todos os numeros impares entre eles</h3>
+    Digite o 1º número: <input type="number" id="numero1" value="0"><p></p>
+    Digite o 2º número: <input type="number" id="numero2" value="0">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    
+
+    <script>
+    function calcular(){
+        var resp = document.getElementById('res')
+        resp.style.color = 'black'
+        var n1 = document.querySelector('input#numero1')
+        var n2 = document.querySelector('input#numero2')
+        var res = document.querySelector('div#res')
+        var numero1 = Number(n1.value)
+        var numero2 = Number(n2.value)
+        var impares = 0
+        var somaImpares = 0
+        if(numero1 >= 0){
+            if(numero2 >= 0){
+                
+                if(numero1 <= numero2){
+                    res.innerHTML = `<p>Soma dos números impares entre ${numero1} e ${numero2} são: </p>`
+                    res.innerHTML += `0`
+
+                    for(var i = numero1; i <= numero2; i++){
+                        var num = i
+                        if(num%2 != 0){
+                            impares = num
+                            res.innerHTML += ` + ${impares} `
+                            somaImpares += impares
+                        }
+                    }
+                }
+                if(numero2 <= numero1){
+                    res.innerHTML = `<p>Soma dos números impares entre ${numero2} e ${numero1} são: </p>`
+                    res.innerHTML += `0`
+                    
+                    for(var i = numero2; i <= numero1; i++){
+                        var num = i
+                        if(num%2 != 0){
+                            impares = num
+                            res.innerHTML += ` + ${impares} `
+                            somaImpares += impares
+                        }
+                    }
+                }
+                res.innerHTML += `= ${somaImpares}`
+            }
+            else{
+            var resp = document.getElementById('res')
+            resp.style.color = 'red'
+            res.innerHTML = `<p>Não será possivel fazer isso com o número ${numero2}
+                <br>tente com um número <strong>positivo</strong></p>`
+            }
+            
+        }
+        else{
+            var resp = document.getElementById('res')
+            resp.style.color = 'red'
+            res.innerHTML = `<p>Não será possivel fazer isso com o número ${numero1}
+                <br>tente com um número <strong>positivo</strong></p>`
+        }
+    }
+    </script>
+</body>
+</html>

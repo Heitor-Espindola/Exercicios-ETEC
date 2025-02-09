@@ -1,0 +1,56 @@
+'<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite um número positivo,e faremos a soma de todos os numeros pares até ele</h3>
+    Qual o número desejado: <input type="number" id="numero" value="0">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    
+
+    <script>
+		
+	function calcular(){
+        var n = document.querySelector('input#numero')
+        var res = document.querySelector('div#res')
+        res.style.color = 'black'
+        var numero = Number(n.value)
+        var pares = 0
+        var somaPares = 0
+        if(numero >= 0){
+            res.innerHTML = `<p>Soma dos números pares até ${numero}: </p>`
+            res.innerHTML += `0`
+            for(var i = 1;i <= numero;i++){
+                var num = i
+                if(num%2 == 0){
+                    pares = num
+                    res.innerHTML += ` + ${pares}`
+                    somaPares += pares
+                }
+            }
+            res.innerHTML += ` = ${somaPares}`
+        }
+        else{
+            res.style.color = 'red'
+            res.innerHTML = `<p>Não será possivel fazer isso com o número ${numero}
+                <br>tente com um número <strong>positivo</strong>!</p>`
+        }
+    }
+	
+    function calcular2(){
+        var numero = Number(document.querySelector('input#numero').value)
+        var res = document.querySelector('div#res')
+        res.style.color = 'black'
+		
+		var numeros = Array(numero+1).fill().map((_, i) => i ).filter(v=>v%2==0)
+		res.innerHTML = numeros.join(' + ')
+		res.innerHTML += " = " + numeros.reduce((a,b)=>a+b)
+    }
+    </script>
+</body>
+</html>

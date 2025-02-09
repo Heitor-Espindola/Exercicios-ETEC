@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Digite uma temperatura em Celsius e transformaremos ele em Fahrenheit</h3>
+    <input type="number" id="numero" value="0"> °C
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    
+    <script>
+        function calcular(){
+        var resp = document.getElementById('res')
+        resp.style.color = 'black'
+        var n = document.querySelector('input#numero')
+        var res = document.querySelector('div#res')
+        var celsius = Number(n.value)
+        var fahrenheit = 0
+
+        
+        if(celsius >= -273.15){
+            fahrenheit = (celsius*1.8)+32
+            res.innerHTML = `A temperatura em fahrenheit é de ${fahrenheit}`
+        }
+        else{
+            resp.style.color = 'red'
+            res.innerHTML = `<p>Não existe a temperatura ${celsius},o mínimo é -273.15°C
+                <br>tente com uma temperatura mais <strong>quente</strong></p>`
+        }
+        }
+    </script>
+</body>
+</html>
