@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>clientes</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form" id="form">
+            <h1>Cadastre os clientes da sua empresa</h1>
+            <div class="esquerda">
+                <p class="nome">
+                    Nome Completo: <br>
+                    <input class="input" type="text" id="nome" maxlength="40">
+                </p>
+                <p class="cpf">
+                    CPF: <br>
+                    <!-- <input class="input" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" id="cpf" maxlength="11" placeholder="___.___.___-__"> -->
+                    <!-- Não consegui adicionar uma mascara de entrada para o cpf, vou pesquisar mais depois -->
+                    <input class="input" type="text" id="cpf" minlength="14" maxlength="14" placeholder="___.___.___-__">
+                </p>
+                <dl id="estadoCivil"> 
+                    <dt>Estado Civil:</dt> 
+                    <dd>
+                        <p><input type="radio" name="estadoCivil" id="Solteiro(a)" checked="checked" value="Solteiro(a)" />Solteiro(a)</p>
+
+                        <p><input type="radio" name="estadoCivil" id="Casado(a)" value="Casado(a)" />Casado(a)</p>
+                        
+                        <p><input type="radio" name="estadoCivil" id="Divorciado(a)" value="Divorciado(a)" />Divorciado(a)</p>
+                        
+                        <p><input type="radio" name="estadoCivil" id="Viúvo(a)"value="Viúvo(a)" />Viúvo(a)</p>
+                        
+                        <p><input type="radio" name="estadoCivil" id="Outro" value="Outro" />Outro</p>
+                    </dd> 
+                </dl>
+                <p class="idade">
+                    Ano de Nascimento: <br>
+                    <input type="date"  id="idade">
+                </p>
+                <div class="margem2"><p style="color:azure;">.</p></div>
+            </div>
+            <div class="centro">
+                <p class="email">
+                    Email: <br>
+                    <input class="input" type="email" id="email" maxlength="100">
+                </p>
+                <!-- <p class="tel">
+                    Telefone: <br>
+                    <input class="input" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" placeholder="(__) ____-____" id="tel" maxlength="11">
+                    
+                </p> -->
+                <p class="tel">
+                    Telefone: <br>
+                    <input class="input" type="text" id="tel" minlength="15" maxlength="15" placeholder="(__) ____-____">
+                    
+                </p>
+                <dl id="dlSexo"> 
+                    <dt>Sexo:</dt> 
+                    <dd>
+                        <p><input type="radio" name="sexo" id="Masculino" value="Masculino" />Masculino</p>
+                        
+                        <p><input type="radio" name="sexo" id="Feminino" value="Feminino" />Feminino</p>
+
+                        <p><input type="radio" name="sexo" id="Não binário" value="Não binário" />Não binário</p>
+
+                        <p><input type="radio" name="sexo" id="Therian" value="Therian" />Therian</p>
+                        
+                        <p><input type="radio" name="sexo" id="Outro(a)" value="Outro(a)" />Outro</p>
+                        
+                        <p><input type="radio" name="sexo" id="undefined" value="Não informado" checked="checked" />Prefiro não dizer</p>
+                    </dd> 
+                </dl>
+                <div class="margem"><p style="color:azure;">.</p></div>
+                <div class="margem2"><p style="color:azure;">.</p></div>
+            </div>
+            <div class="direita">
+                <h2>Endereço</h2>
+                <p class="rua">
+                    Rua / Avenida: <br>
+                    <input class="input" type="text" id="rua" maxlength="100">
+                </p>
+                <p class="numCasa">
+                    Número: <br>
+                    <input class="input" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="numCasa" maxlength="5">
+                </p>
+                <p class="complemento">
+                    Complemento (opicional): <br>
+                    <input class="input" type="text" id="complemento" maxlength="100">
+                </p>
+                <p class="bairro">
+                    Bairro: <br>
+                    <input class="input" type="text" id="bairro" maxlength="30">
+                </p>
+                <p class="estado">
+                    Estado: <br>
+                    <select name="estado" id="estado"> 
+                        <option name="estadoOpcao" value="ac">Acre</option> 
+                        <option name="estadoOpcao" value="al">Alagoas</option> 
+                        <option name="estadoOpcao" value="am">Amazonas</option> 
+                        <option name="estadoOpcao" value="ap">Amapá</option> 
+                        <option name="estadoOpcao" value="ba">Bahia</option> 
+                        <option name="estadoOpcao" value="ce">Ceará</option> 
+                        <option name="estadoOpcao" value="df">Distrito Federal</option> 
+                        <option name="estadoOpcao" value="es">Espírito Santo</option> 
+                        <option name="estadoOpcao" value="go">Goiás</option> 
+                        <option name="estadoOpcao" value="ma">Maranhão</option> 
+                        <option name="estadoOpcao" value="mt">Mato Grosso</option> 
+                        <option name="estadoOpcao" value="ms">Mato Grosso do Sul</option> 
+                        <option name="estadoOpcao" value="mg">Minas Gerais</option> 
+                        <option name="estadoOpcao" value="pa">Pará</option> 
+                        <option name="estadoOpcao" value="pb">Paraíba</option> 
+                        <option name="estadoOpcao" value="pr">Paraná</option> 
+                        <option name="estadoOpcao" value="pe">Pernambuco</option> 
+                        <option name="estadoOpcao" value="pi">Piauí</option> 
+                        <option name="estadoOpcao" value="rj">Rio de Janeiro</option> 
+                        <option name="estadoOpcao" value="rn">Rio Grande do Norte</option> 
+                        <option name="estadoOpcao" value="ro">Rondônia</option> 
+                        <option name="estadoOpcao" value="rs">Rio Grande do Sul</option> 
+                        <option name="estadoOpcao" value="rr">Roraima</option> 
+                        <option name="estadoOpcao" value="sc">Santa Catarina</option> 
+                        <option name="estadoOpcao" value="se">Sergipe</option> 
+                        <option name="estadoOpcao" value="sp" selected="selected">São Paulo</option> 
+                        <option name="estadoOpcao" value="to">Tocantins</option> 
+                    </select>
+                </p>
+                <p class="cidade">
+                    Cidade: <br>
+                    <input class="input" type="text" id="cidade">
+                </p>
+                <p class="cep">
+                    CEP: <br>
+                    <!-- <input class="input" type="number" id="cep" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="8"  placeholder="_____-___"> -->
+                    <input class="input" type="text" id="cep"  maxlength="9" placeholder="_____-___">
+                </p>
+            </div>
+            <div class="baixo">
+                <p class="nomeUser">
+                    Nome do Usuário: <br>
+                    <input type="text" maxlength="16" class="inputNomeUser">
+                </p>
+                <p class="senha">
+                    Senha: <br>
+                    <input type="password" class="inputSenha" minlength="6">
+                </p>
+                <p class="confirmarSenha">
+                    Confirmar Senha: <br>
+                    <input type="password" class="inputConfirmarSenha" minlength="6">
+                </p>
+            </div>
+            
+
+            <p class="msg" id="msgValidar"></p>
+            <p class="msgC" id="msgCadastrado"></p>
+            <p class="button">
+                <input type="button" value="Validar" class="botao" onclick="Validar()">
+            </p>
+            
+            <p class="msg" id="msgMostrar"></p>
+            <p class="button">
+                <input type="button" value="Mostrar cadastrados" class="botao" id="Cadastro" onclick="MostrarTodosCadastrados()">
+            </p>
+
+        </form>
+        <div class="cadastros" id="cadastros" hidden>
+            <p id="Cadastrados">
+                
+            </p>
+        </div>
+    </div>
+</body>
+</html>
