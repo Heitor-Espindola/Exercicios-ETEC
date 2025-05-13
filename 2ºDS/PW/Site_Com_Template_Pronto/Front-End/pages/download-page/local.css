@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #1E1E1E;
+    height: 60px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+.singup,.login{
+    align-self: center;
+    height: 60%;
+    width:12%;
+    color: #8015CD;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+}
+.login{
+    background-color: #8015CD;
+    color: #0f0f0f;
+}
