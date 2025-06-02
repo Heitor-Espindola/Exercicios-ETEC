@@ -1,0 +1,14 @@
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\bin\Debug\net8.0\Algoritmo4.exe
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\bin\Debug\net8.0\Algoritmo4.deps.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\bin\Debug\net8.0\Algoritmo4.runtimeconfig.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\bin\Debug\net8.0\Algoritmo4.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\bin\Debug\net8.0\Algoritmo4.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.AssemblyInfoInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.AssemblyInfo.cs
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.csproj.CoreCompileInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\refint\Algoritmo4.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\Algoritmo4.genruntimeconfig.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo4\Algoritmo4\obj\Debug\net8.0\ref\Algoritmo4.dll

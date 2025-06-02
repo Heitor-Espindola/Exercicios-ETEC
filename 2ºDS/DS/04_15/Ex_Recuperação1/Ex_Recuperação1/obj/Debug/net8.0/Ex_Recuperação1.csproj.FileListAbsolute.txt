@@ -1,0 +1,14 @@
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\bin\Debug\net8.0\Ex_Recuperação1.exe
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\bin\Debug\net8.0\Ex_Recuperação1.deps.json
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\bin\Debug\net8.0\Ex_Recuperação1.runtimeconfig.json
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\bin\Debug\net8.0\Ex_Recuperação1.dll
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\bin\Debug\net8.0\Ex_Recuperação1.pdb
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.AssemblyInfoInputs.cache
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.AssemblyInfo.cs
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.csproj.CoreCompileInputs.cache
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.dll
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\refint\Ex_Recuperação1.dll
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.pdb
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\Ex_Recuperação1.genruntimeconfig.cache
+E:\Etec - DS\2°DS\DS\04_15\Ex_Recuperação1\Ex_Recuperação1\obj\Debug\net8.0\ref\Ex_Recuperação1.dll

@@ -1,0 +1,14 @@
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\bin\Debug\net8.0\EX-SwitchCase3.exe
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\bin\Debug\net8.0\EX-SwitchCase3.deps.json
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\bin\Debug\net8.0\EX-SwitchCase3.runtimeconfig.json
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\bin\Debug\net8.0\EX-SwitchCase3.dll
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\bin\Debug\net8.0\EX-SwitchCase3.pdb
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.AssemblyInfoInputs.cache
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.AssemblyInfo.cs
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.csproj.CoreCompileInputs.cache
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.dll
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\refint\EX-SwitchCase3.dll
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.pdb
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\EX-SwitchCase3.genruntimeconfig.cache
+D:\Etec - DS\2°DS\DS\03_21\EX-SwitchCase3\EX-SwitchCase3\obj\Debug\net8.0\ref\EX-SwitchCase3.dll

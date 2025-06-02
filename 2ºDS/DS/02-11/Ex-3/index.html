@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cardapio</h1>
+    <h2>Lanches</h2>
+    <ul>
+        <li id="XTudão">X-Tudão <input type="button" value="Pedir +1" id="maisUmXTudão" onclick="pedir('XTudão')"> <input type="button" value="Retirar 1" id="menosUmXTudão" onclick="retirar('XTudão')" hidden> <p id="qtdeXTudão"></p>
+            
+            
+        <li id="XBauru">X-Bauru <input type="button" value="Pedir +1" id="maisUmXBauru" onclick="pedir('XBauru')"> <input type="button" value="Retirar 1" id="menosUmXBauru" onclick="retirar('XBauru')" hidden> <p id="qtdeXBauru"></p>
+            
+            
+        <li id="XFrangão">X-Frangão <input type="button" value="Pedir +1" id="maisUmXFrangão" onclick="pedir('XFrangão')"> <input type="button" value="Retirar 1" id="menosUmXFrangão" onclick="retirar('XFrangão')" hidden> <p id="qtdeXFrangão"></p>
+            
+            
+        <li id="XPorco">X-Porco (Bacom +) <input type="button" value="Pedir +1" id="maisUmXPorco" onclick="pedir('XPorco')"> <input type="button" value="Retirar 1" id="menosUmXPorco" onclick="retirar('XPorco')" hidden> <p id="qtdeXPorco"></p>
+            
+            
+        <li id="XEgg">X-Egg <input type="button" value="Pedir +1" id="maisUmXEgg" onclick="pedir('XEgg')"> <input type="button" value="Retirar 1" id="menosUmXEgg" onclick="retirar('XEgg')" hidden> <p id="qtdeXEgg"></p>
+            
+            
+    </ul>
+    <h2>Pizzas</h2>
+    <ul>
+        <li id="Calabresa">Calabresa <input type="button" value="Pedir +1" id="maisUmCalabresa" onclick="pedir('Calabresa')"> <input type="button" value="Retirar 1" id="menosUmCalabresa" onclick="retirar('Calabresa')" hidden> <p id="qtdeCalabresa"></p>
+            
+            
+        <li id="Lombo">Lombo <input type="button" value="Pedir +1" id="maisUmLombo" onclick="pedir('Lombo')"> <input type="button" value="Retirar 1" id="menosUmLombo" onclick="retirar('Lombo')" hidden> <p id="qtdeLombo"></p>
+            
+            
+        <li id="FrangoCatupiry">Frango com Catupiry <input type="button" value="Pedir +1" id="maisUmFrangoCatupiry" onclick="pedir('FrangoCatupiry')"> <input type="button" value="Retirar 1" id="menosUmFrangoCatupiry" onclick="retirar('FrangoCatupiry')" hidden> <p id="qtdeFrangoCatupiry"></p>
+            
+            
+        <li id="QuatroQueijos">Quatro Queijos <input type="button" value="Pedir +1" id="maisUmQuatroQueijos" onclick="pedir('QuatroQueijos')"> <input type="button" value="Retirar 1" id="menosUmQuatroQueijos" onclick="retirar('QuatroQueijos')" hidden> <p id="qtdeQuatroQueijos"></p>
+            
+            
+        <li id="BrócolisBacon">Brócolis c/ Bacon <input type="button" value="Pedir +1" id="maisUmBrócolisBacon" onclick="pedir('BrócolisBacon')"> <input type="button" value="Retirar 1" id="menosUmBrócolisBacon" onclick="retirar('BrócolisBacon')" hidden> <p id="qtdeBrócolisBacon"></p>
+            
+            
+    </ul>
+    <h2>Bebidas</h2>
+    <ul>
+        <li id="CocaCola">Coca-Cola <input type="button" value="Pedir +1" id="maisUmCocaCola" onclick="pedir('CocaCola')"> <input type="button" value="Retirar 1" id="menosUmCocaCola" onclick="retirar('CocaCola')" hidden> <p id="qtdeCocaCola"></p>
+            
+            
+        <li id="Guaraná">Guaraná <input type="button" value="Pedir +1" id="maisUmGuaraná" onclick="pedir('Guaraná')"> <input type="button" value="Retirar 1" id="menosUmGuaraná" onclick="retirar('Guaraná')" hidden> <p id="qtdeGuaraná"></p>
+            
+            
+        <li id="Vinho">Vinho <input type="button" value="Pedir +1" id="maisUmVinho" onclick="pedir('Vinho')"> <input type="button" value="Retirar 1" id="menosUmVinho" onclick="retirar('Vinho')" hidden> <p id="qtdeVinho"></p>
+            
+            
+        <li id="Shake">Shake <input type="button" value="Pedir +1" id="maisUmShake" onclick="pedir('Shake')"> <input type="button" value="Retirar 1" id="menosUmShake" onclick="retirar('Shake')" hidden> <p id="qtdeShake"></p>
+            
+            
+        <li id="Água">Água <input type="button" value="Pedir +1" id="maisUmÁgua" onclick="pedir('Água')"> <input type="button" value="Retirar 1" id="menosUmÁgua" onclick="retirar('Água')" hidden> <p id="qtdeÁgua"></p>
+            
+            
+    </ul>
+    <input type="button" value="Finalizar Pedido" onclick="finalizar()">
+    <p id="resp"></p>
+</body>
+</html>

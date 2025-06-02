@@ -1,0 +1,14 @@
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\bin\Debug\net8.0\Ex-If1.exe
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\bin\Debug\net8.0\Ex-If1.deps.json
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\bin\Debug\net8.0\Ex-If1.runtimeconfig.json
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\bin\Debug\net8.0\Ex-If1.dll
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\bin\Debug\net8.0\Ex-If1.pdb
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.AssemblyInfoInputs.cache
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.AssemblyInfo.cs
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.csproj.CoreCompileInputs.cache
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.dll
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\refint\Ex-If1.dll
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.pdb
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\Ex-If1.genruntimeconfig.cache
+E:\Etec - DS\2°DS\DS\02-28\Ex-If1\Ex-If1\obj\Debug\net8.0\ref\Ex-If1.dll

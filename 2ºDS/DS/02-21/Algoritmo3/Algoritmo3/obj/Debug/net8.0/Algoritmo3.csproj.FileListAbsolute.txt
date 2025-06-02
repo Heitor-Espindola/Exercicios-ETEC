@@ -1,0 +1,14 @@
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.AssemblyInfoInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.AssemblyInfo.cs
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.csproj.CoreCompileInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\bin\Debug\net8.0\Algoritmo3.exe
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\bin\Debug\net8.0\Algoritmo3.deps.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\bin\Debug\net8.0\Algoritmo3.runtimeconfig.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\bin\Debug\net8.0\Algoritmo3.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\bin\Debug\net8.0\Algoritmo3.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\refint\Algoritmo3.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\Algoritmo3.genruntimeconfig.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritmo3\Algoritmo3\obj\Debug\net8.0\ref\Algoritmo3.dll

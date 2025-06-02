@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Etec - DS\\2\u00B0DS\\DS\\02-21\\Algoritmo2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF79857-4741-4341-8429-25736884994B}|Algoritmo2\\Algoritmo2.csproj|e:\\etec - ds\\2\u00B0ds\\ds\\02-21\\algoritmo2\\algoritmo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF79857-4741-4341-8429-25736884994B}|Algoritmo2\\Algoritmo2.csproj|solutionrelative:algoritmo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Etec - DS\\2\u00B0DS\\DS\\02-21\\Algoritmo2\\Algoritmo2\\Program.cs",
+              "RelativeDocumentMoniker": "Algoritmo2\\Program.cs",
+              "ToolTip": "E:\\Etec - DS\\2\u00B0DS\\DS\\02-21\\Algoritmo2\\Algoritmo2\\Program.cs",
+              "RelativeToolTip": "Algoritmo2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:28:14.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

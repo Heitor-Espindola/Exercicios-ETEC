@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Etec - DS\\2\u00B0DS\\DS\\03_21\\EX-SwitchCase3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AADAB3EE-E5A2-4147-B90F-1CD09DFE7623}|EX-SwitchCase3\\EX-SwitchCase3.csproj|d:\\etec - ds\\2\u00B0ds\\ds\\03_21\\ex-switchcase3\\ex-switchcase3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADAB3EE-E5A2-4147-B90F-1CD09DFE7623}|EX-SwitchCase3\\EX-SwitchCase3.csproj|solutionrelative:ex-switchcase3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Etec - DS\\2\u00B0DS\\DS\\03_21\\EX-SwitchCase3\\EX-SwitchCase3\\Program.cs",
+              "RelativeDocumentMoniker": "EX-SwitchCase3\\Program.cs",
+              "ToolTip": "D:\\Etec - DS\\2\u00B0DS\\DS\\03_21\\EX-SwitchCase3\\EX-SwitchCase3\\Program.cs",
+              "RelativeToolTip": "EX-SwitchCase3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:12:37.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

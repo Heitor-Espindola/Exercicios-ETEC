@@ -1,0 +1,14 @@
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\bin\Debug\net8.0\Algoritimo 1.exe
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\bin\Debug\net8.0\Algoritimo 1.deps.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\bin\Debug\net8.0\Algoritimo 1.runtimeconfig.json
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\bin\Debug\net8.0\Algoritimo 1.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\bin\Debug\net8.0\Algoritimo 1.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.AssemblyInfoInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.AssemblyInfo.cs
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.csproj.CoreCompileInputs.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\refint\Algoritimo 1.dll
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.pdb
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\Algoritimo 1.genruntimeconfig.cache
+D:\Etec - DS\2°DS\DS\02-21\Algoritimo 1\Algoritimo 1\obj\Debug\net8.0\ref\Algoritimo 1.dll

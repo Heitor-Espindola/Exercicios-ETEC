@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Cadastrando Funcionários</h1>
+    <h2>Nome do Funcionário:</h2>
+    <p><input type="text" name="nome" id="nome" maxlength="100"></p>
+    <h2>Ano de Nascimento:</h2>
+    <p><input type="number" name="anoNascimento" id="nasc" maxlength="4"></p>
+    <h2>Profissão:</h2>
+    <p><input type="text" name="profissao" id="profissao" maxlength="100"></p>
+    <h2>Genero (M,F,O):</h2>
+    <p><input type="text" name="genero" id="gen" maxlength="1"></p>
+    <input type="button" value="Enviar" onclick="cadastrar()">
+    <input type="button" value="Mostrar Todos os Cadastros" onclick="mostrarCadastrados()">
+    <p id="todoMundo"></p>
+    <input type="button" value="Mostrar Resulados" onclick="mostrarResultados()">
+    <p id="resp"></p>
+</body>
+</html>
